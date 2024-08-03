@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
+
+name: trieve
+scope: Namespaced
+shortDescription: Infrastructure for building AI search into your applications
+longDescription: >
+  All-in-one infrastructure for search, recommendations, RAG, and analytics offered via API
+iconUrl: https://avatars.githubusercontent.com/u/177543
+defaultNamespace: trieve
+dependencies:
+  - name: "cloudnative-pg"
+manifests: []
+
