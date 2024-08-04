@@ -1,0 +1,3 @@
+[submodule "trieve"]
+	path = trieve
+	url = git@github.com:devflowinc/trieve.git
