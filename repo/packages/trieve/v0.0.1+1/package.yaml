@@ -5,7 +5,7 @@ scope: Namespaced
 shortDescription: Infrastructure for building AI search into your applications
 longDescription: >
   All-in-one infrastructure for search, recommendations, RAG, and analytics offered via API
-iconUrl: https://avatars.githubusercontent.com/u/177543
+iconUrl: https://avatars.githubusercontent.com/u/122049913
 defaultNamespace: trieve
 dependencies:
   - name: "cloudnative-pg"

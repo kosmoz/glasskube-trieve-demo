@@ -3,7 +3,7 @@ packages:
     latestVersion: v0.23.6+1
     name: clickhouse-operator
     shortDescription: Altinity Kubernetes Operator for ClickHouse
-  - iconUrl: https://avatars.githubusercontent.com/u/177543
+  - iconUrl: https://avatars.githubusercontent.com/u/122049913
     latestVersion: v0.0.1+1
     name: trieve
     scope: Namespaced
