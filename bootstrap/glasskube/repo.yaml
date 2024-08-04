@@ -1,9 +1,7 @@
 apiVersion: packages.glasskube.dev/v1alpha1
 kind: PackageRepository
 metadata:
-  annotations:
-    packages.glasskube.dev/default-repository: "true"
-  name: postgres-demo
+  name: private-demo-repo
 spec:
-  url: https://github.com/pmig/glasskube-trieve-demo/repo/packages
+  url: https://pmig.github.io/glasskube-trieve-demo/repo/packages/
 
