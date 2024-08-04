@@ -1,6 +1,3 @@
 [submodule "trieve"]
 	path = trieve
-	url = git@github.com:devflowinc/trieve.git
-	branch = main
-    shallow = true
-    fetchRecurseSubmodules = false
+	url = https://github.com/devflowinc/trieve/
