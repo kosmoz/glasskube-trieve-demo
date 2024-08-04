@@ -1,6 +1,10 @@
 packages:
+  - iconUrl: https://avatars.githubusercontent.com/u/54801242
+    latestVersion: v0.23.6+1
+    name: clickhouse-operator
+    shortDescription: Altinity Kubernetes Operator for ClickHouse
   - iconUrl: https://avatars.githubusercontent.com/u/177543
     latestVersion: v0.0.1+1
-    name: postgres
+    name: trieve
     scope: Namespaced
-    shortDescription: Production-ready PostgreSQL database
+    shortDescription: Infrastructure for building AI search into your applications
