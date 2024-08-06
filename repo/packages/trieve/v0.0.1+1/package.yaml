@@ -11,7 +11,7 @@ dependencies:
   - name: "cloudnative-pg"
   - name: "clickhouse-operator"
 helm:
-  repositoryUrl: "oci://pmig/glasskube-trieve-demo/trieve"
+  repositoryUrl: "https://pmig.github.io/glasskube-trieve-demo/charts/"
   chartName: "trieve"
   chartVersion: "0.1.0"
   values:
