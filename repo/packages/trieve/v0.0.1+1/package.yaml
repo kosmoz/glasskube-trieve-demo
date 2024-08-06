@@ -10,10 +10,31 @@ defaultNamespace: default
 dependencies:
   - name: "cloudnative-pg"
   - name: "clickhouse-operator"
+valueDefinitions:
+  openaiApiKey:
+    type: text
+    targets: []
+    constraints:
+      required: true
+      minLength: 50
+      pattern: "sk-.+"
+  hostname:
+    type: text
+    targets: [ ]
+    constraints:
+      required: true
+      minLength: 5
+  analytics:
+    type: boolean
+    defaultValue: "false"
+    targets: []
+manifests:
+  - url: https://pmig.github.io/glasskube-trieve-demo/repo/packages/trieve/v0.0.1+1/cluster.yaml
 helm:
   repositoryUrl: "https://pmig.github.io/glasskube-trieve-demo/charts/"
   chartName: "trieve"
   chartVersion: "0.1.0"
+
   values:
     environment: server # Set to aws if deploying to
     domain: localtrieve.com # Only used if environment = local
