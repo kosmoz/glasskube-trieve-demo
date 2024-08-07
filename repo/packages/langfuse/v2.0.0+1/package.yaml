@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
+
+name: langfuse
+scope: Namespaced
+shortDescription: Open source LLM engineering platform. Debug, analyze and iterate together.
+longDescription: >
+  Open source LLM engineering platform: Observability, metrics, evals, prompt management, playground, datasets.
+  Integrates with LlamaIndex, Langchain, OpenAI SDK, LiteLLM, and more.
+iconUrl: https://avatars.githubusercontent.com/u/134601687
+defaultNamespace: default
+dependencies:
+  - name: "cloudnative-pg"
+  - name: "clickhouse-operator"
+valueDefinitions:
+  hostname:
+    type: text
+    targets: [ ]
+    constraints:
+      required: true
+      minLength: 5
+  analytics:
+    type: boolean
+    defaultValue: "false"
+    targets: []
+manifests:
+  - url: https://pmig.github.io/glasskube-trieve-demo/repo/packages/langfuse/v0.0.1+1/cluster.yaml
+helm:
+  repositoryUrl: "https://langfuse.github.io/langfuse-k8s"
+  chartName: "langfuse"
+  chartVersion: "0.2.1"

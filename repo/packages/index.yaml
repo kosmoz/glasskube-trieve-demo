@@ -3,6 +3,11 @@ packages:
     latestVersion: v0.23.6+1
     name: clickhouse-operator
     shortDescription: Altinity Kubernetes Operator for ClickHouse
+  - iconUrl: https://avatars.githubusercontent.com/u/134601687
+    latestVersion: v2.0.0+1
+    name: langfuse
+    scope: Namespaced
+    shortDescription: Open source LLM engineering platform. Debug, analyze and iterate together.
   - iconUrl: https://avatars.githubusercontent.com/u/122049913
     latestVersion: v0.0.1+1
     name: trieve
