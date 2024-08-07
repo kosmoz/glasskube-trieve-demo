@@ -15,7 +15,6 @@ valueDefinitions:
     type: text
     targets: []
     constraints:
-      required: true
       minLength: 50
       pattern: "sk-.+"
   hostname:
@@ -34,7 +33,6 @@ helm:
   repositoryUrl: "https://pmig.github.io/glasskube-trieve-demo/charts/"
   chartName: "trieve"
   chartVersion: "0.1.0"
-
   values:
     environment: server # Set to aws if deploying to
     domain: localtrieve.com # Only used if environment = local

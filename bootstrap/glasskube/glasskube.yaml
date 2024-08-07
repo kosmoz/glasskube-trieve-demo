@@ -8,7 +8,6 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    packages.glasskube.dev/gitops-mode-enabled: "true"
     packages.glasskube.dev/telemetry-enabled: "true"
     packages.glasskube.dev/telemetry-id: bb9abce9-2992-40fc-a3d5-4d4ebfd74e1c
   labels:
