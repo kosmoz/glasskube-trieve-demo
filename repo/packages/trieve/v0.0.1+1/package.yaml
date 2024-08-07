@@ -14,9 +14,6 @@ valueDefinitions:
   openaiApiKey:
     type: text
     targets: []
-    constraints:
-      minLength: 50
-      pattern: "sk-.+"
   hostname:
     type: text
     targets: [ ]
