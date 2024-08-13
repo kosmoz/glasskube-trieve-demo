@@ -7,7 +7,8 @@ longDescription: >
   ClickHouse® is an open-source column-oriented database management system
   that allows generating analytical data reports in real-time.
   
-  **Warning:** This operator is currently installed into the kube-system namespace
+  
+  **Warning:** This operator is currently installed into the _kube-system_ namespace
 references:
   - label: GitHub
     url: https://github.com/Altinity/clickhouse-operator

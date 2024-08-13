@@ -139,7 +139,6 @@ helm:
         adminDashboardUrl: http://dashboard.localtrieve.com
     embeddings:
       - name: jina
-        revision: main
         model: jinaai/jina-embeddings-v2-base-en
         revision: main
         args: [ ]

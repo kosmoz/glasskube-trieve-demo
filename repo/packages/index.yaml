@@ -8,6 +8,11 @@ packages:
     name: langfuse
     scope: Namespaced
     shortDescription: Open source LLM engineering platform. Debug, analyze and iterate together.
+  - iconUrl: https://avatars.githubusercontent.com/u/73504361
+    latestVersion: v1.11.0+1
+    name: qdrant
+    scope: Namespaced
+    shortDescription: High-Performance Vector Search at Scale
   - iconUrl: https://avatars.githubusercontent.com/u/122049913
     latestVersion: v0.0.1+1
     name: trieve
