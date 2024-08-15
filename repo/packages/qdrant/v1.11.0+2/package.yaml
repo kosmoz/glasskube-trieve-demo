@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://glasskube.dev/schemas/v1/package-manifest.json
+name: qdrant
+iconUrl: https://avatars.githubusercontent.com/u/73504361
+shortDescription: High-Performance Vector Search at Scale
+longDescription: |
+  High-performance, massive-scale Vector Database for the next generation of AI.
+defaultNamespace: default
+scope: Namespaced
+helm:
+  repositoryUrl: https://qdrant.github.io/qdrant-helm
+  chartName: qdrant
+  chartVersion: v1.11.0
+  values:
+    apiKey: true
