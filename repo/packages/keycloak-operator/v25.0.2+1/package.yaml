@@ -12,4 +12,4 @@ scope: Namespaced
 dependencies:
   - name: "keycloak-operator-crds"
 manifests:
-  - url: https://raw.githubusercontent.com/keycloak/keycloak-k8s-resources/25.0.2/kubernetes/kubernetes.yml
+  - url: ./manifest.yaml
