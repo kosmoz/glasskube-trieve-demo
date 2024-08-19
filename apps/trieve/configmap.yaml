@@ -34,7 +34,7 @@ data:
   OIDC_CLIENT_SECRET: "YllmLDTy67MbsUBrUAWvQ7z9aMq0QcKx"
   OIDC_CLIENT_ID: "vault"
   OIDC_AUTH_REDIRECT_URL: "http://localhost:8080/realms/trieve/protocol/openid-connect/auth"
-  OIDC_ISSUER_URL: "http://localhost:8080/realms/trieve"
+  OIDC_ISSUER_URL: "http://trieve-keycloak-service:8080/realms/trieve"
   GPU_SERVER_ORIGIN: "http://localhost:7070"
   SPARSE_SERVER_QUERY_ORIGIN: ""
   SPARSE_SERVER_DOC_ORIGIN: ""

@@ -1,10 +1,10 @@
 kind: Cluster
 apiVersion: postgresql.cnpg.io/v1
 metadata:
-  name: trieve-postgresql-keycloak
+  name: trieve-keycloak-db
 spec:
   enableSuperuserAccess: false
-  instances: 2
+  instances: 1 # TODO: increase to 3 for prod
   bootstrap:
     initdb:
       database: keycloak
