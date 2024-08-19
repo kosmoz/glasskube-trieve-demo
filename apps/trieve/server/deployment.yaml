@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trieve-server
+spec:
+  selector:
+    matchLabels:
+      app: trieve-server
+  template:
+    metadata:
+      labels:
+        app: trieve-server
+    spec:
+      containers:
+        - name: server
+          resources:
+            requests:
+              cpu: "1"
+          image: "trieve/server"
+          ports:
+            - containerPort: 8090
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: trieve-postgresql-server-app
+                  key: uri
+          envFrom:
+            - configMapRef:
+                name: trieve-server-config
