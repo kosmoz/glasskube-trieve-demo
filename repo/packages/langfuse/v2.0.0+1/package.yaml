@@ -23,7 +23,7 @@ valueDefinitions:
     defaultValue: "false"
     targets: []
 manifests:
-  - url: https://pmig.github.io/glasskube-trieve-demo/repo/packages/langfuse/v0.0.1+1/cluster.yaml
+  - url: ./cluster.yaml
 helm:
   repositoryUrl: "https://langfuse.github.io/langfuse-k8s"
   chartName: "langfuse"
