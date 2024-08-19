@@ -3,13 +3,7 @@ kind: Deployment
 metadata:
   name: trieve-server
 spec:
-  selector:
-    matchLabels:
-      app: trieve-server
   template:
-    metadata:
-      labels:
-        app: trieve-server
     spec:
       containers:
         - name: server
