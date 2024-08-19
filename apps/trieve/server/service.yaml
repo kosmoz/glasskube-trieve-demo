@@ -7,5 +7,3 @@ spec:
   ports:
     - port: 8090
       name: server
-  selector:
-    app: trieve-server

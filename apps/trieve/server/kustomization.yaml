@@ -1,3 +1,5 @@
+commonLabels:
+  app.kubernetes.io/component: trieve-server
 resources:
   - deployment.yaml
   - service.yaml
