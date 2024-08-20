@@ -7,4 +7,5 @@ resources:
   - configmap.yaml
   - keycloak
   - server
+  - file-worker
   - ui

@@ -1,0 +1,8 @@
+commonLabels:
+  app.kubernetes.io/component: file-worker
+resources:
+  - deployment.yaml
+images:
+  - name: trieve/file-worker
+    newName: trieve/file_worker
+    newTag: latest # TODO: we should use pinned version instead of "latest"
