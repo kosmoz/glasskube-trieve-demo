@@ -1,0 +1,7 @@
+commonLabels:
+  app.kubernetes.io/component: ingest
+resources:
+  - deployment.yaml
+images:
+  - name: trieve/ingest
+    newTag: latest # TODO: change to pinned version
