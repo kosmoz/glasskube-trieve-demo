@@ -13,3 +13,4 @@ resources:
   - delete-worker
   - sync-qdrant
   - ingest
+  - embeddings

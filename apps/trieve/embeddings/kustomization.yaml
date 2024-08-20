@@ -1,0 +1,7 @@
+resources:
+  - jina
+  - reranker
+  - splade-doc
+  - splade-query
+components:
+  - components/cpu
