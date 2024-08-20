@@ -1,2 +1,4 @@
 resources:
+  - configmap.yaml
   - analytics
+  - chat
