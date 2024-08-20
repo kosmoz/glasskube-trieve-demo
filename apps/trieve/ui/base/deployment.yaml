@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: base
+spec:
+  template:
+    spec:
+      containers:
+      - name: base
+        image: base
+        ports:
+          - containerPort: 80
+        envFrom:
+          - configMapRef:
+              name: trieve-ui-config

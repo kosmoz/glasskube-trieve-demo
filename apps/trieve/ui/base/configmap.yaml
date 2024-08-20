@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trieve-ui-config
+data:
+  VITE_API_HOST: "http://localhost:8090/api"
