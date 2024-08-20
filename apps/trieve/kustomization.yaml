@@ -10,3 +10,4 @@ resources:
   - file-worker
   - ui
   - group-worker
+  - delete-worker

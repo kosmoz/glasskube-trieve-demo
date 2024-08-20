@@ -1,0 +1,8 @@
+commonLabels:
+  app.kubernetes.io/component: delete-worker
+resources:
+  - deployment.yaml
+images:
+  - name: trieve/delete-worker
+    newName: trieve/delete_worker
+    newTag: latest # TODO: change to pinned version
