@@ -9,3 +9,4 @@ resources:
   - server
   - file-worker
   - ui
+  - group-worker

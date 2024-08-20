@@ -1,0 +1,8 @@
+commonLabels:
+  app.kubernetes.io/component: group-worker
+resources:
+  - deployment.yaml
+images:
+  - name: trieve/group-worker
+    newName: trieve/group_worker
+    newTag: latest # TODO: change to pinned version
