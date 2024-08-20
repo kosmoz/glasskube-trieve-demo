@@ -17,5 +17,6 @@ spec:
     httpEnabled: true
   hostname:
     strict: false
+    hostname: http://trieve-keycloak-service:8080
   proxy:
     headers: xforwarded # double check your reverse proxy sets and overwrites the X-Forwarded-* headers
