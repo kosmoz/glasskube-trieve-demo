@@ -1,0 +1,10 @@
+namespace: default
+resources:
+  - repository.yaml
+  - cloudnative-pg.yaml
+  - clickhouse-operator.yaml
+  - keycloak-operator.yaml
+  - qdrant.yaml
+  - redis.yaml
+  - tika.yaml
+  

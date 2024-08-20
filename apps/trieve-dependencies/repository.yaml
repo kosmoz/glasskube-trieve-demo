@@ -1,0 +1,6 @@
+apiVersion: packages.glasskube.dev/v1alpha1
+kind: PackageRepository
+metadata:
+  name: trieve
+spec:
+  url: https://pmig.github.io/glasskube-trieve-demo/repo/packages
