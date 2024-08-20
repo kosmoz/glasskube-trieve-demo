@@ -11,3 +11,4 @@ resources:
   - ui
   - group-worker
   - delete-worker
+  - sync-qdrant
